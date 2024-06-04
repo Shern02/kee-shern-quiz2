@@ -47,8 +47,8 @@ class MainActivity : AppCompatActivity() {
             textView.text = "$result"
         }
 
-        var myButton3: Button = findViewById(R.id.button4)
-        myButton2.setOnClickListener{
+        var myButton3: Button = findViewById(R.id.button5)
+        myButton3.setOnClickListener{
             val number1 = editTextNumberDecimal.text.toString().toDoubleOrNull() ?: 0.0
             val number2 = editTextNumberDecimal2.text.toString().toDoubleOrNull() ?: 0.0
             val number3 = editTextNumberDecimal3.text.toString().toDoubleOrNull() ?: 0.0
